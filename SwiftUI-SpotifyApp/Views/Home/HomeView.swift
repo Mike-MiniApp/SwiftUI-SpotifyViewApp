@@ -13,6 +13,27 @@ struct HomeView: View {
             ZStack {
                 Color.black.ignoresSafeArea()
                 VStack() {
+                    HStack {
+                        Button {
+                            // 何もしない
+                        } label: {
+                            Text("音楽")
+                                .frame(width: 80,height: 30)
+                                .foregroundColor(.white)
+                                .background(Color(red: 35/255, green: 5/255, blue: 5/255))
+                                .cornerRadius(10)
+                        }
+                        Button {
+                            // 何もしない
+                        } label: {
+                            Text("ポッドキャストと番組")
+                                .frame(width: 270,height: 30)
+                                .foregroundColor(.white)
+                                .background(Color(red: 35/255, green: 5/255, blue: 5/255))
+                                .cornerRadius(10)
+                        }
+                        Spacer()
+                    }.padding()
                    HomeLibraryView()
                 }
                 .background(Color(red: 0/255, green: 0/255, blue: 0/255))
