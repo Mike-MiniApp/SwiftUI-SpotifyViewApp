@@ -9,8 +9,8 @@
 /* Begin PBXBuildFile section */
 		954254D0295549E8003690D2 /* HomeLibraryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954254CF295549E8003690D2 /* HomeLibraryView.swift */; };
 		954254D229554AAC003690D2 /* HomeLibrary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954254D129554AAC003690D2 /* HomeLibrary.swift */; };
-		954254D429598CBC003690D2 /* UpdatePlayListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 954254D329598CBC003690D2 /* UpdatePlayListView.swift */; };
 		9569EC6C295AD18B003CF6BD /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569EC6B295AD18B003CF6BD /* ChartView.swift */; };
+		9569EC6E295AD2A8003CF6BD /* Chart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9569EC6D295AD2A8003CF6BD /* Chart.swift */; };
 		95BBB96E295185020066E80A /* SwiftUI_SpotifyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BBB96D295185020066E80A /* SwiftUI_SpotifyAppApp.swift */; };
 		95BBB970295185020066E80A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BBB96F295185020066E80A /* ContentView.swift */; };
 		95BBB972295185040066E80A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95BBB971295185040066E80A /* Assets.xcassets */; };
@@ -43,8 +43,8 @@
 /* Begin PBXFileReference section */
 		954254CF295549E8003690D2 /* HomeLibraryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLibraryView.swift; sourceTree = "<group>"; };
 		954254D129554AAC003690D2 /* HomeLibrary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeLibrary.swift; sourceTree = "<group>"; };
-		954254D329598CBC003690D2 /* UpdatePlayListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatePlayListView.swift; sourceTree = "<group>"; };
 		9569EC6B295AD18B003CF6BD /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		9569EC6D295AD2A8003CF6BD /* Chart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chart.swift; sourceTree = "<group>"; };
 		95BBB96A295185020066E80A /* SwiftUI-SpotifyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI-SpotifyApp.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95BBB96D295185020066E80A /* SwiftUI_SpotifyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SpotifyAppApp.swift; sourceTree = "<group>"; };
 		95BBB96F295185020066E80A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,7 +90,6 @@
 			children = (
 				95BBB999295186BE0066E80A /* HomeView.swift */,
 				954254CF295549E8003690D2 /* HomeLibraryView.swift */,
-				954254D329598CBC003690D2 /* UpdatePlayListView.swift */,
 				9569EC6B295AD18B003CF6BD /* ChartView.swift */,
 			);
 			path = Home;
@@ -174,6 +173,7 @@
 			isa = PBXGroup;
 			children = (
 				954254D129554AAC003690D2 /* HomeLibrary.swift */,
+				9569EC6D295AD2A8003CF6BD /* Chart.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -326,11 +326,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9569EC6E295AD2A8003CF6BD /* Chart.swift in Sources */,
 				954254D229554AAC003690D2 /* HomeLibrary.swift in Sources */,
 				95BBB99E295186DF0066E80A /* MyLibraryView.swift in Sources */,
 				9569EC6C295AD18B003CF6BD /* ChartView.swift in Sources */,
 				95BBB99C295186CF0066E80A /* SearchView.swift in Sources */,
-				954254D429598CBC003690D2 /* UpdatePlayListView.swift in Sources */,
 				95BBB99A295186BE0066E80A /* HomeView.swift in Sources */,
 				954254D0295549E8003690D2 /* HomeLibraryView.swift in Sources */,
 				95BBB970295185020066E80A /* ContentView.swift in Sources */,
