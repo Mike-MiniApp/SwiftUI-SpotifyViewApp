@@ -17,10 +17,10 @@ struct ChartView: View {
             HStack {
                 Text("チャート")
                     .bold()
-                    .font(.title)
+                    .font(.title2)
+                    .foregroundColor(.white)
                 Spacer()
             }
-            .padding()
             ScrollView(.horizontal) {
                 HStack() {
                     ForEach(chartArray) { chart in
@@ -31,8 +31,9 @@ struct ChartView: View {
                             Text(chart.text)
                                 .frame(width: 150)
                                 .font(.caption)
+                                .foregroundColor(.gray)
                         }
-                    }.padding(.leading,5)
+                    }
                 }
             }
         }

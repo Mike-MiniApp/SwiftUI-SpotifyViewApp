@@ -36,7 +36,7 @@ struct HomeLibraryView: View {
                             ))
                         Spacer()
                     }.frame(width: 180,height: 50)
-                    .background(Color(red: 35/255, green: 5/255, blue: 5/255))
+                    .background(Color(red: 40/255, green: 40/255, blue: 40/255))
                         .cornerRadius(3)
                     HStack {
                         Image(homeLibraryArray[1].image)
@@ -55,7 +55,7 @@ struct HomeLibraryView: View {
                             ))
                         Spacer()
                     }.frame(width: 180,height: 50)
-                    .background(Color(red: 35/255, green: 5/255, blue: 5/255))
+                    .background(Color(red: 40/255, green: 40/255, blue: 40/255))
                         .cornerRadius(3)
                 }
                 HStack() {
@@ -75,7 +75,7 @@ struct HomeLibraryView: View {
                                 trailing: 10    // 右の余白
                             ))
                         Spacer()
-                    }.frame(width: 180,height: 50).background(Color(red: 35/255, green: 5/255, blue: 5/255))
+                    }.frame(width: 180,height: 50).background(Color(red: 40/255, green: 40/255, blue: 40/255))
                         .cornerRadius(3)
                     HStack {
                         Image(homeLibraryArray[3].image)
@@ -94,7 +94,7 @@ struct HomeLibraryView: View {
                             ))
                         Spacer()
                     }.frame(width: 180,height: 50)
-                    .background(Color(red: 35/255, green: 5/255, blue: 5/255))
+                    .background(Color(red: 40/255, green: 40/255, blue: 40/255))
                         .cornerRadius(3)
                 }
                 HStack() {
@@ -114,7 +114,7 @@ struct HomeLibraryView: View {
                                 trailing: 10    // 右の余白
                             ))
                         Spacer()
-                    }.frame(width: 180,height: 50).background(Color(red: 35/255, green: 5/255, blue: 5/255))
+                    }.frame(width: 180,height: 50).background(Color(red: 40/255, green: 40/255, blue: 40/255))
                         .cornerRadius(3)
                     HStack {
                         Image(homeLibraryArray[5].image)
@@ -133,7 +133,7 @@ struct HomeLibraryView: View {
                             ))
                         Spacer()
                     }.frame(width: 180,height: 50)
-                    .background(Color(red: 35/255, green: 5/255, blue: 5/255))
+                    .background(Color(red: 40/255, green: 40/255, blue: 40/255))
                         .cornerRadius(3)
                 }
             }

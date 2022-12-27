@@ -12,33 +12,33 @@ struct HomeView: View {
         NavigationStack {
             ZStack {
                 Color.black.ignoresSafeArea()
-                VStack() {
-                    HStack {
-                        Button {
-                            // 何もしない
-                        } label: {
-                            Text("音楽")
-                                .frame(width: 80,height: 30)
-                                .foregroundColor(.white)
-                                .background(Color(red: 35/255, green: 5/255, blue: 5/255))
-                                .cornerRadius(10)
+                ScrollView {
+                    VStack() {
+                        HStack {
+                            Button {
+                                // 何もしない
+                            } label: {
+                                Text("音楽")
+                                    .frame(width: 80,height: 30)
+                                    .foregroundColor(.white)
+                                    .background(Color(red: 40/255, green: 40/255, blue: 40/255))
+                                    .cornerRadius(10)
+                            }
+                            Button {
+                                // 何もしない
+                            } label: {
+                                Text("ポッドキャストと番組")
+                                    .frame(width: 270,height: 30)
+                                    .foregroundColor(.white)
+                                    .background(Color(red: 40/255, green: 40/255, blue: 40/255))
+                                    .cornerRadius(10)
+                            }
+                            Spacer()
                         }
-                        Button {
-                            // 何もしない
-                        } label: {
-                            Text("ポッドキャストと番組")
-                                .frame(width: 270,height: 30)
-                                .foregroundColor(.white)
-                                .background(Color(red: 35/255, green: 5/255, blue: 5/255))
-                                .cornerRadius(10)
-                        }
-                        Spacer()
-                    }.padding()
-                   HomeLibraryView()
+                        HomeLibraryView()
+                        ChartView()
+                    }
                 }
-                .background(Color(red: 0/255, green: 0/255, blue: 0/255))
-                    .cornerRadius(3)
-                    .frame(width: 300,height: 150)
             }.toolbar {
                 ToolbarItem(placement: .navigationBarLeading) {
                     Button {
@@ -46,6 +46,7 @@ struct HomeView: View {
                     } label: {
                         Text("こんにちは")
                             .foregroundColor(.white)
+                            .font(.title2)
                             .bold()
                     }
                 }
@@ -69,8 +70,6 @@ struct HomeView: View {
                         Image(systemName: "gearshape")
                             .foregroundColor(.white)
                     }
-
-
                 }
             }
         }
