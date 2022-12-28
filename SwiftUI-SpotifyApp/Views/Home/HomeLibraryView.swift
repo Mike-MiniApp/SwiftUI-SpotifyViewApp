@@ -27,7 +27,7 @@ struct HomeLibraryView: View {
                         Text(homeLibraryArray[0].name)
                             .foregroundColor(.white)
                             .bold()
-                            .font(.system(size: 10, weight: .black, design: .default))
+                            .font(.system(size: 13, weight: .black, design: .default))
                             .padding(EdgeInsets(
                                 top: 0,        // 上の余白
                                 leading: 0,    // 左の余白
@@ -46,7 +46,7 @@ struct HomeLibraryView: View {
                         Text(homeLibraryArray[1].name)
                             .foregroundColor(.white)
                             .bold()
-                            .font(.system(size: 10, weight: .black, design: .default))
+                            .font(.system(size: 13, weight: .black, design: .default))
                             .padding(EdgeInsets(
                                 top: 0,        // 上の余白
                                 leading: 0,    // 左の余白
@@ -67,7 +67,7 @@ struct HomeLibraryView: View {
                         Text(homeLibraryArray[2].name)
                             .foregroundColor(.white)
                             .bold()
-                            .font(.system(size: 10, weight: .black, design: .default))
+                            .font(.system(size: 13, weight: .black, design: .default))
                             .padding(EdgeInsets(
                                 top: 0,        // 上の余白
                                 leading: 0,    // 左の余白
@@ -85,7 +85,7 @@ struct HomeLibraryView: View {
                         Text(homeLibraryArray[3].name)
                             .foregroundColor(.white)
                             .bold()
-                            .font(.system(size: 10, weight: .black, design: .default))
+                            .font(.system(size: 13, weight: .black, design: .default))
                             .padding(EdgeInsets(
                                 top: 0,        // 上の余白
                                 leading: 0,    // 左の余白
@@ -106,7 +106,7 @@ struct HomeLibraryView: View {
                         Text(homeLibraryArray[4].name)
                             .foregroundColor(.white)
                             .bold()
-                            .font(.system(size: 10, weight: .black, design: .default))
+                            .font(.system(size: 13, weight: .black, design: .default))
                             .padding(EdgeInsets(
                                 top: 0,        // 上の余白
                                 leading: 0,    // 左の余白
@@ -124,7 +124,7 @@ struct HomeLibraryView: View {
                         Text(homeLibraryArray[5].name)
                             .foregroundColor(.white)
                             .bold()
-                            .font(.system(size: 10, weight: .black, design: .default))
+                            .font(.system(size: 13, weight: .black, design: .default))
                             .padding(EdgeInsets(
                                 top: 0,        // 上の余白
                                 leading: 0,    // 左の余白
