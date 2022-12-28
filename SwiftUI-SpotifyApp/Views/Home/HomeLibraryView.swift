@@ -23,7 +23,7 @@ struct HomeLibraryView: View {
                         Image(homeLibraryArray[0].image)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .frame(width: 50,height: 50)
+                            .frame(width: 60,height: 60)
                         Text(homeLibraryArray[0].name)
                             .foregroundColor(.white)
                             .bold()
@@ -35,14 +35,14 @@ struct HomeLibraryView: View {
                                 trailing: 10    // 右の余白
                             ))
                         Spacer()
-                    }.frame(width: 180,height: 50)
+                    }.frame(width: 180,height: 60)
                     .background(Color(red: 40/255, green: 40/255, blue: 40/255))
                         .cornerRadius(3)
                     HStack {
                         Image(homeLibraryArray[1].image)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .frame(width: 50,height: 50)
+                            .frame(width: 60,height: 60)
                         Text(homeLibraryArray[1].name)
                             .foregroundColor(.white)
                             .bold()
@@ -54,7 +54,7 @@ struct HomeLibraryView: View {
                                 trailing: 10    // 右の余白
                             ))
                         Spacer()
-                    }.frame(width: 180,height: 50)
+                    }.frame(width: 180,height: 60)
                     .background(Color(red: 40/255, green: 40/255, blue: 40/255))
                         .cornerRadius(3)
                 }
@@ -63,7 +63,7 @@ struct HomeLibraryView: View {
                         Image(homeLibraryArray[2].image)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .frame(width: 50,height: 50)
+                            .frame(width: 60,height: 60)
                         Text(homeLibraryArray[2].name)
                             .foregroundColor(.white)
                             .bold()
@@ -75,13 +75,13 @@ struct HomeLibraryView: View {
                                 trailing: 10    // 右の余白
                             ))
                         Spacer()
-                    }.frame(width: 180,height: 50).background(Color(red: 40/255, green: 40/255, blue: 40/255))
+                    }.frame(width: 180,height: 60).background(Color(red: 40/255, green: 40/255, blue: 40/255))
                         .cornerRadius(3)
                     HStack {
                         Image(homeLibraryArray[3].image)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .frame(width: 50,height: 50)
+                            .frame(width: 60,height: 60)
                         Text(homeLibraryArray[3].name)
                             .foregroundColor(.white)
                             .bold()
@@ -93,7 +93,7 @@ struct HomeLibraryView: View {
                                 trailing: 10    // 右の余白
                             ))
                         Spacer()
-                    }.frame(width: 180,height: 50)
+                    }.frame(width: 180,height: 60)
                     .background(Color(red: 40/255, green: 40/255, blue: 40/255))
                         .cornerRadius(3)
                 }
@@ -102,7 +102,7 @@ struct HomeLibraryView: View {
                         Image(homeLibraryArray[4].image)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .frame(width: 50,height: 50)
+                            .frame(width: 60,height: 60)
                         Text(homeLibraryArray[4].name)
                             .foregroundColor(.white)
                             .bold()
@@ -114,13 +114,13 @@ struct HomeLibraryView: View {
                                 trailing: 10    // 右の余白
                             ))
                         Spacer()
-                    }.frame(width: 180,height: 50).background(Color(red: 40/255, green: 40/255, blue: 40/255))
+                    }.frame(width: 180,height: 60).background(Color(red: 40/255, green: 40/255, blue: 40/255))
                         .cornerRadius(3)
                     HStack {
                         Image(homeLibraryArray[5].image)
                             .resizable()
                             .aspectRatio(contentMode: .fit)
-                            .frame(width: 50,height: 50)
+                            .frame(width: 60,height: 60)
                         Text(homeLibraryArray[5].name)
                             .foregroundColor(.white)
                             .bold()
@@ -132,7 +132,7 @@ struct HomeLibraryView: View {
                                 trailing: 10    // 右の余白
                             ))
                         Spacer()
-                    }.frame(width: 180,height: 50)
+                    }.frame(width: 180,height: 60)
                     .background(Color(red: 40/255, green: 40/255, blue: 40/255))
                         .cornerRadius(3)
                 }
